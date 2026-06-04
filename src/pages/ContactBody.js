@@ -2,7 +2,6 @@ import "./ContactStyle.css";
 
 import React from "react";
 import IntroImg from "../assets/IntroImg3.jpeg";
-import Footer from "./Footer";
 
 import { Panel } from "primereact/panel";
 
@@ -13,7 +12,6 @@ const ContactBody = () => {
         <img className="into-img" src={IntroImg} alt="IntroImg" />
         <div className="contact_div">
           <Panel className="panel">
-            <Footer />
           </Panel>
           <div className="photo_contact">
             <img className="photo" src="" alt="" />

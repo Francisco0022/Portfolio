@@ -1,11 +1,12 @@
 .mask {
   width: 100%;
   min-height: 100vh;
+  height: 0px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem;
 }
 
 .into-img {
@@ -39,12 +40,12 @@
   text-align: center;
 }
 
-.hero .content h1 {
+.content h1 {
   font-size: 4rem;
   padding: 0.6rem 0 1.5rem;
 }
 
-.hero .content p {
+.content p {
   font-size: 1.4rem;
   font-weight: 200;
   text-transform: uppercase;
@@ -56,10 +57,10 @@
 
 @media screen and (max-width: 640px) {
   .hero .content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .hero .content p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 }

@@ -35,7 +35,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/about" className="bottom">
-            <BsArrowUpLeft /> About
+            <BsArrowUpLeft /> Sobre mi
           </Link>
         </li>
       </ul>

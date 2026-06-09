@@ -1,13 +1,15 @@
 import React from 'react'
-import Proyectos from '../pages/PersonalProy'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import WorkCard from '../components/WorkCard'
+import HeroImg2 from '../components/HeroImg2'
 
 const Projects = () => {
   return (
     <div>
       <Navbar />
-      <Proyectos />
+      <HeroImg2 heading="Proyectos." text="A continuacion mis proyectos mas importantes:"/> 
+      <WorkCard />
       <Footer />
     </div>
   )

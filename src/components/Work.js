@@ -1,17 +1,30 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import "./WorkCardStyles.css";
 
-import "./WorkCardStyles.css"
+import WorkCard from "./WorkCard";
+import WorkCardData from "./WorkCardData";
 
 // Importar aqui imagen desde assets y utilizar la clase dentro de src={}
 
 const Work = () => {
-  return <div className="work-container">
-    <h1 className="project-heading">Projects</h1>
-    <div className="project-container">
-        
+  return (
+    <div className="work-container">
+      <h1 className="project-heading">Projects</h1>
+      <div className="project-container">
+        {WorkCardData.map((val, ind) => {
+          return (
+            <WorkCard
+            key={ind}
+            imgsrc={val.imgsrc}
+            title={val.title}
+            text={val.text}
+            view={val.view}
+            />
+          )
+        })}
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Work;

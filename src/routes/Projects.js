@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import WorkCard from '../components/WorkCard'
+import Work from '../components/Work'
 import HeroImg2 from '../components/HeroImg2'
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
     <div>
       <Navbar />
       <HeroImg2 heading="Proyectos." text="A continuacion mis proyectos mas importantes:"/> 
-      <WorkCard />
+      <Work />
       <Footer />
     </div>
   )

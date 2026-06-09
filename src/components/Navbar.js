@@ -34,6 +34,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="/projects" className="bottom">
+            <BsArrowUpLeft /> Proyectos
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className="bottom">
+            <BsArrowUpLeft /> Contacto
+          </Link>
+        </li>
+        <li>
           <Link to="/about" className="bottom">
             <BsArrowUpLeft /> Sobre mi
           </Link>

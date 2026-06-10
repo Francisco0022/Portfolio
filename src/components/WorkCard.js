@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 
 import "./WorkCardStyles.css";
 
-// Importar aqui imagen desde assets y utilizar la clase dentro de <img src={}... /> Y agregar "image" en alt=""...
-
 const WorkCard = (props) => {
   return (
     <div className="project-card">
@@ -14,10 +12,7 @@ const WorkCard = (props) => {
         <p>{props.text}</p>
         <div className="pro-btns">
           <NavLink to={props.view} className="btn">
-            View
-          </NavLink>
-          <NavLink to="url.com" className="btn">
-            Source
+            Ver mas
           </NavLink>
         </div>
       </div>

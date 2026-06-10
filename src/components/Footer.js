@@ -5,9 +5,10 @@ import React from 'react';
 //import { FaHome } from "react-icons/fa";
 
 import 'primeicons/primeicons.css';
+import { Link } from "react-router-dom";
         
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className="footer">
       <div className="footer-container">
@@ -29,9 +30,8 @@ const Footer = () => {
         </div>
         <div className="rigth">
           <div className="social">
-            <i className="pi pi-github social" style={{ color: '#fff', fontSize: '1.5rem'}}></i>
-            <i className="pi pi-linkedin social" style={{ color: '#fff', fontSize: '1.5rem'}}></i>
-            <i className="pi pi-twitter social" style={{ color: '#fff', fontSize: '1.5rem'}}></i>
+            <Link className="pi pi-github social" to="https://github.com/Francisco0022" style={{ color: '#fff', fontSize: '1.5rem'}}></Link>
+            <Link className="pi pi-linkedin social" to="https://linkedin.com/in/francisco-zuniga-palma" style={{ color: '#fff', fontSize: '1.5rem'}}></Link>
           </div>
         </div>
       </div>
